@@ -249,6 +249,14 @@ body {
     padding: 10px;
 }
 
+.card-hebergement > div > div > .fa-star {
+    font-size: 13.25px;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
 .hebergement-2 {
     width: 30%;
 }
@@ -331,7 +339,36 @@ footer{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    /* ... */
+    .d-flex.gap15.align-center {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    section.d-flex.gap40 {
+        flex-direction: column;
+    }
+
+    .hebergements {
+        width: auto;
+    }
+
+    .populaire {
+        flex-direction: row;
+        gap: 30px;
+    }
+
+    .card-populaire img{
+        width: 91px;
+    }
+
+    .card-populaire{
+        min-width: 200px;
+    }
+
+    .activite img{
+        height: 200px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
