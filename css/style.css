@@ -190,6 +190,7 @@ body {
 }
 
 .card-hebergement{
+    min-width: 200px;
     width: calc((100% - 90px) / 3);
     border: solid 5px #fff;
     border-radius: 20px;
@@ -235,7 +236,7 @@ body {
 }
 
 .euro {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .gap2 {
