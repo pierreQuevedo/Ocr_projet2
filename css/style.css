@@ -119,6 +119,46 @@ body {
     gap: 8px;
 }
 
+.search-bar{
+    height: 50px;
+    width: 377px;
+}
+
+.icon-dot{
+    height: 100%;
+    width: 50px;
+    justify-content: center;
+    background-color: var(--main-bg-color);
+    border-radius: 15px 0 0 15px;
+}
+
+.icon-dot i{
+    font-size: 18px;
+    color: #000000;
+}
+
+.search-input {
+    width: calc(100% - 182px);
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 14px 24px;
+    background: white;
+    border: box-sizing;
+    border-top: 1px solid var(--main-bg-color);
+    border-bottom: 1px solid var(--main-bg-color);
+}
+
+.search-button {
+    width: 132px;
+    height: 100%;
+    background: var(--main-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 15px 15px 0;
+}
+
 .gap15 {
     gap: 15px;
 }
