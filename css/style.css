@@ -149,7 +149,6 @@ body {
     outline: none;
     padding: 14px 24px;
     background: white;
-    border: box-sizing;
     border-top: 1px solid var(--main-bg-color);
     border-bottom: 1px solid var(--main-bg-color);
 }
