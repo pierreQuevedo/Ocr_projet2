@@ -18,7 +18,7 @@
 
         <!-- Header NavBar -->
         
-        <header class="d-flex justify-between">
+        <header class="d-flex justify-between navbar">
             <img class="header-logo py30" src="./images/logo/Booki.png" alt="Logo de Booki">
             <nav class="d-flex links-nav">
                 <a class="link-nav Ral-400-16-18" href="#">Hébergements</a>
@@ -26,10 +26,10 @@
             </nav>
         </header>
         
-        <!-- Hero Section -->
+        <!-- Main Section -->
         
         <main class="d-flex gap35 direction-column">
-            <section class="d-flex gap35 direction-column">
+            <section class="d-flex gap35 direction-column hero">
                 <div class="d-flex direction-column gap8">
                     <h1 class="Ral-700-22-26">Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p class="Ral-400-16-18">En plein centre-ville ou en pleine nature</p>
@@ -40,23 +40,28 @@
                     </div>
                     <input type="text" class="search-input Ral-700-18-21" value="Marseille, France" >
                     <button class="search-button Ral-700-18-21">Rechercher</button>
+                    <button class="search-button-responsive Ral-700-18-21">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.7688 14.6976L13.4582 11.3876C13.3088 11.2382 13.1062 11.1552 12.8937 11.1552H12.3525C13.2689 9.9832 13.8135 8.50913 13.8135 6.90558C13.8135 3.09091 10.7221 0 6.90676 0C3.09144 0 0 3.09091 0 6.90558C0 10.7202 3.09144 13.8112 6.90676 13.8112C8.51058 13.8112 9.98491 13.2667 11.1571 12.3504V12.8915C11.1571 13.104 11.2401 13.3065 11.3895 13.4559L14.7001 16.7659C15.0122 17.078 15.517 17.078 15.8258 16.7659L16.7655 15.8264C17.0776 15.5143 17.0776 15.0097 16.7688 14.6976ZM6.90676 11.1552C4.55912 11.1552 2.65644 9.25613 2.65644 6.90558C2.65644 4.55834 4.5558 2.65599 6.90676 2.65599C9.25439 2.65599 11.1571 4.55502 11.1571 6.90558C11.1571 9.25281 9.25771 11.1552 6.90676 11.1552Z" fill="white"/>
+                        </svg>
+                    </button>
                 </div>
-                <div class="d-flex gap15 align-center">
+                <div class="d-flex gap15 align-center filters-groupe">
                     <span class="Ral-700-18-21">Filtres</span>
                     <div class="d-flex gap15">
-                        <a href="" class="filters d-flex align-center">
+                        <a href="#" class="filters d-flex align-center">
                             <i class="fa-solid fa-money-bill-wave"></i>
                             <span class="Ral-700-17-20">Économique</span>
                         </a>
-                        <a href="" class="filters d-flex align-center">
+                        <a href="#" class="filters d-flex align-center">
                             <i class="fa-solid fa-person"></i>
                             <span class="Ral-700-17-20">Familial</span>
                         </a>
-                        <a href="" class="filters d-flex align-center">
+                        <a href="#" class="filters d-flex align-center">
                             <i class="fa-solid fa-heart"></i>
                             <span class="Ral-700-17-20">Romantique</span>
                         </a>
-                        <a href="" class="filters d-flex align-center">
+                        <a href="#" class="filters d-flex align-center">
                             <i class="fa-solid fa-fire"></i>
                             <span class="Ral-700-17-20">Nos pépites</span>
                         </a>
@@ -69,7 +74,7 @@
                     <p class="Ral-400-16-18">Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
             </section>
-            <section class="d-flex gap40">
+            <section class="d-flex gap40 hebergements-groupes">
                 <div class="hebergements hebergement-1 gap30 d-flex direction-column">
                     <h2 class="Ral-700-22-26">Hébergements à Marseille</h2>
                     <div class="cards-hebergements">
@@ -219,7 +224,7 @@
             </section>
             <section class="d-flex direction-column p30 gap30">
                 <h2 class="Ral-700-22-26">Activités à Marseille</h2>
-                <div class="d-flex w100 gap30">
+                <div class="d-flex w100 gap30 activites">
                     <article class="activite">
                         <img src="./images/activites/reno-laithienne.jpg" alt="Image du Vieux-Port">
                         <h3 class="Ral-700-16-18">Vieux-Port</h3>
