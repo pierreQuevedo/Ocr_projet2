@@ -96,6 +96,9 @@ body {
 .py30 {
     padding: 30px 0;
 }
+.activite{
+    display: none;
+}
 
 .links-nav {
     gap: 70px;
